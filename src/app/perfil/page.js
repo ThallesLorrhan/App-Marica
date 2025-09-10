@@ -28,8 +28,8 @@ export default function Perfil() {
       {/* Cabeçalho com avatar */}
       <div className="flex flex-col items-center mt-10 ">
         <Image
-          src="/jussara.png" 
-          alt="Foto do usuário"
+          src="/jussara1.png" 
+          alt="Avatar de Jussara"
           width={100}
           height={100}
           className="rounded-full mt-5 object-cover"

@@ -57,7 +57,7 @@ export default function CardFeed({ items }) {
           <div
             className="w-8 h-8 flex items-center justify-center rounded-full text-white"
           >
-            <Image src="/eventos.png" alt="Icon" width={30} height={30} />
+            <Image src="/eventos1.png" alt="Icon" width={30} height={30} />
           </div>
         </div>
         <div
@@ -84,7 +84,7 @@ export default function CardFeed({ items }) {
           <div
             className="w-8 h-8 flex items-center justify-center rounded-full text-white"
           >
-            <Image src="/servicos.png" alt="Icon" width={30} height={30} />
+            <Image src="/servicos1.png" alt="Icon" width={30} height={30} />
           </div>
         </div>
         
