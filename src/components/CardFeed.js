@@ -87,6 +87,7 @@ export default function CardFeed({ items }) {
             <Image src="/servicos.png" alt="Icon" width={30} height={30} />
           </div>
         </div>
+        
     </div>
   );
 }
