@@ -10,8 +10,9 @@ export default function FeedCardHome() {
   ];
 
   return (
-    <div className="mt-10 pb-20 bg-white flex flex-col items-center">
+    <div className="flex flex-col mt-5 gap-4 max-w-xl">
       {/* Lista de cards em linha */}
+      <h1 className="text-2xl font-bold text-black ml-5">Doações Recentes</h1>
       <div className="flex flex-wrap justify-center gap-6 w-full max-w-6xl px-4">
         {menuItems.map((item, idx) => (
           <div
