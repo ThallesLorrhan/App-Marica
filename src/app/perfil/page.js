@@ -28,7 +28,7 @@ export default function Perfil() {
       {/* Cabeçalho com avatar */}
       <div className="flex flex-col items-center mt-10 ">
         <Image
-          src="/jussara.png" // Coloque sua imagem em public/avatar.png
+          src="/jussara.png" 
           alt="Foto do usuário"
           width={100}
           height={100}
