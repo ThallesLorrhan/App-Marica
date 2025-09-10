@@ -46,7 +46,7 @@ export default function Perfil() {
             className="w-full text-green-500 flex items-center   bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition"
           >
             {item.icon}
-            <span className="text-black">{item.label}</span>
+            <span className="flex-1 text-black">{item.label}</span>
           </button>
         ))}
       </div>
