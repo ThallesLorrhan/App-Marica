@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-
+import { useState, useEffect } from "react";
 import BottomNav from "@/components/BottomNav";
 import Header from "@/components/Header";
 
@@ -12,7 +12,7 @@ export default function Message() {
   ];
 
   return (
-    <div className="min-h-screen pb-20 bg-white flex flex-col ">
+    <div className="min-h-screen pb-20 bg-white flex flex-col  ">
         
      <Header />
       <div className=" flex text-aling justify-between w-80 p-4 rounded-xl flex-col gap-4">
@@ -20,6 +20,7 @@ export default function Message() {
       </div>
         {menuItems.map((item, idx) => (
         <div
+          key={idx}
           className="flex items-center justify-center mx-auto w-80 p-4 border-b-1 border-gray-600"
         >
           {/* Imagem */}
