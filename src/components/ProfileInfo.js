@@ -1,4 +1,4 @@
-"use client";
+import React from 'react'
 import Image from "next/image";
 import {
   UserIcon,
@@ -10,10 +10,9 @@ import {
   PowerIcon,
 } from "@heroicons/react/24/outline";
 
-import BottomNav from "@/components/BottomNav";
+const ProfileInfo = () => {
 
-export default function Perfil() {
-  const menuItems = [
+    const menuItems = [
     { label: "Minhas Publicações", icon: <UserIcon className="h-6 w-6 text-green-600" /> },
     { label: "Meus Interesses", icon: <HeartIcon className="h-6 w-6 text-green-600" /> },
     { label: "Eventos Confirmados", icon: <CalendarDaysIcon className="h-6 w-6 text-green-600" /> },
@@ -24,8 +23,7 @@ export default function Perfil() {
   ];
 
   return (
-    <div className="min-h-screen pb-20 bg-white flex flex-col items-center">
-      {/* Cabeçalho com avatar */}
+    <div className='min-h-screen pb-20 bg-white flex flex-col items-center'>
       <div className="flex flex-col items-center mt-10 ">
         <Image
           src="/jussara1.png" 
@@ -38,7 +36,6 @@ export default function Perfil() {
         <p className="text-gray-500 text-xs">Engajada com a comunidade</p>
       </div>
 
-      {/* Lista de opções */}
       <div className=" flex text-aling items-center justify-between w-80 p-4 rounded-xl flex-col gap-4">
         {menuItems.map((item, idx) => (
           <button
@@ -50,9 +47,8 @@ export default function Perfil() {
           </button>
         ))}
       </div>
-
-      {/* Barra de navegação */}
-      <BottomNav />
     </div>
-  );
+  )
 }
+
+export default ProfileInfo

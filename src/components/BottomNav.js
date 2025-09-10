@@ -19,7 +19,7 @@ export default function BottomNav() {
     { name: "home", icon: <HomeIcon className="h-6 w-6" />, href: "/" },
     { name: "buscar", icon: <MagnifyingGlassIcon className="h-6 w-6" />, href: "/search" },
     { name: "mensagens", icon: <ChatBubbleLeftEllipsisIcon className="h-6 w-6" />, href: "/message" },
-    { name: "perfil", icon: <UserIcon className="h-6 w-6" />, href: "/perfil" },
+    { name: "perfil", icon: <UserIcon className="h-6 w-6" />, href: "/profile" },
   ];
 
   // Atualiza o item ativo automaticamente ao carregar a página
