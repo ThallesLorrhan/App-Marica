@@ -18,7 +18,7 @@ export default function BottomNav() {
   const navItems = [
     { name: "home", icon: <HomeIcon className="h-6 w-6" />, href: "/" },
     { name: "buscar", icon: <MagnifyingGlassIcon className="h-6 w-6" />, href: "/buscar" },
-    { name: "mensagens", icon: <ChatBubbleLeftEllipsisIcon className="h-6 w-6" />, href: "/mensagens" },
+    { name: "mensagens", icon: <ChatBubbleLeftEllipsisIcon className="h-6 w-6" />, href: "/message" },
     { name: "perfil", icon: <UserIcon className="h-6 w-6" />, href: "/perfil" },
   ];
 
